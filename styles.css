@@ -431,7 +431,7 @@ body {
     align-items: center;
     background-image: var(--newsletter-banner);
     background-repeat: no-repeat;
-    background-position: 20% 30%;
+    background-position: 20% 100%;
     background-color: var(--newletter-bgcolor);
 }
 #newsletter h4{
