@@ -73,7 +73,7 @@ body {
 
 :root{
     /* Header and navbar variables */
-    --bgcolor-nav: #E3E6F3;
+    --bgcolor-nav: #f6e5d3;
     --fontcolor-nav: #1a1a1a;
     --font-theme: #088178;
 
@@ -542,7 +542,7 @@ footer .copyright{
         right: -300px;
         height: 100vh;
         width: 300px;
-        background-color: #E3E6F3;
+        background-color: var(--bgcolor-nav);
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 10px;
         transition: 0.3s;
