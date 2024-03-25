@@ -353,7 +353,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: var(--small-banner-img1);
-    min-width: 680px;
+    min-width: 650px;
     height: 50vh;
     background-size: cover;
     background-position: top 10% left 0;
@@ -390,7 +390,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: var(--xs-text-banner1);
-    min-width: 30%;
+    min-width: 33%;
     height: 30vh;
     background-size: cover;
     background-position: center;
@@ -528,7 +528,7 @@ footer .copyright{
 
 /************************ Media query **********************/
 
-@media only screen and (max-width: 799px)  {
+@media only screen and (max-width: 850px)  {
     .section-p1 {
         padding: 40px 40px;
     }
@@ -583,7 +583,7 @@ footer .copyright{
     #hero {
         height: 70vh;
         padding: 0 80px;
-        background-position: top 30% right 30%;
+        background-position: bottom 40% right 20%;
     }
     #feature{
         justify-content: center;
@@ -610,10 +610,20 @@ footer .copyright{
     }
     #banner3 {
         padding: 0 40px;
+        display: inline-flex;
+        justify-content: center;
     }
     #banner3 .banner-box{
-        width: 29%;
+        min-width: 100%;
+        justify-content: center;
+        width: 50%;
+        background-position: bottom 60% ;
+        height: 25vh;
     }
+    #banner3 .banner-box2 {
+        background-position: bottom 70% right 80%;
+    }
+    
 
     #newsletter .form {
         width: 70%;
@@ -635,7 +645,7 @@ footer .copyright{
     }
     #hero {
         padding: 0 20px;
-        background-position: 55%;
+        background-position: 75%;
     }
     #feature {
         justify-content: space-between;
